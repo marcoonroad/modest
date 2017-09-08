@@ -2,7 +2,8 @@ package = "modest"
 version = "0.1-1"
 
 source = {
-    url = "http://github.com/marcoonroad/modest",
+    url = "git://github.com/marcoonroad/modest",
+    tag = "v0.1-1",
 }
 
 local detailed = [[
