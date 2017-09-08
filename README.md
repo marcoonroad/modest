@@ -46,7 +46,7 @@ local modest = require 'modest'
 ```
 
 After successfully loading such library, you'll be able
-to detect how you clients use your own library. For that,
+to detect how your clients use your own library. For that,
 you could just use any from the meaningful exported functions
 below:
 

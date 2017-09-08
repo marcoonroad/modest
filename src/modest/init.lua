@@ -23,6 +23,8 @@ local function required ( )
     return false
 end
 
+-----------------------------------------------------------
+
 function export.script ( )
     return not export.module ( )
 end
@@ -33,6 +35,7 @@ end
 
 if export.script ( ) then
     error "You should not pass here through the script mode!"
+
 else
     return export
 end
