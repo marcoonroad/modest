@@ -1,0 +1,11 @@
+title: modest
+description: "Script/module mode detection while running/loading Lua files."
+theme: jekyll-theme-hacker
+show_downloads: false
+google_analytics: UA-41209773-2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CNAME
+  - vendor

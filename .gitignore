@@ -1,5 +1,7 @@
-*.src.rock
 *.swp
 *~
 .*.un~
 TRASH/
+vendor/
+.bundle/
+_site/

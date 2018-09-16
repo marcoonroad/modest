@@ -1,3 +1,6 @@
+---
+---
+
 # modest
 
 Script/module mode detection while running/loading Lua files.
@@ -140,4 +143,3 @@ or clone your credit cards. Well, depending on how much rich you are, it's a str
 temptation to do that.
 
 None the less, pull-requests and issues are welcome. Have fun & good hacking, kiddo!
-
