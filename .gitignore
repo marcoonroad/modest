@@ -3,3 +3,6 @@
 *~
 .*.un~
 TRASH/
+vendor/
+_site/
+.bundle/
