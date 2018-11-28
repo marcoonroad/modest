@@ -2,6 +2,16 @@
 
 Script/module mode detection while running/loading Lua files.
 
+[![Travis](https://img.shields.io/travis/com/marcoonroad/modest.svg?logo=travis&style=flat-square)](https://travis-ci.com/marcoonroad/modest)
+<span> </span>
+[![Coveralls github](https://img.shields.io/coveralls/github/marcoonroad/modest.svg?style=flat-square)](https://coveralls.io/github/marcoonroad/modest?branch=master)
+<span> </span>
+![LuaRocks](https://img.shields.io/luarocks/v/marcoonroad/modest.svg?style=flat-square)
+<span> </span>
+![license](https://img.shields.io/github/license/marcoonroad/modest.svg?logo=github&style=flat-square)
+<span> </span>
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 
 ### Introduction
 
