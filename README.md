@@ -5,7 +5,7 @@ Script/module mode detection while running/loading Lua files.
 
 ### Introduction
 
-This library is a successfully encoding of the Python magic
+This library is a successful encoding of the Python magic
 `__name__` variable. In Python programmers often check that
 variable to detect if their files are running under script
 mode or either being loaded and imported as modules. It is
@@ -140,4 +140,3 @@ or clone your credit cards. Well, depending on how much rich you are, it's a str
 temptation to do that.
 
 None the less, pull-requests and issues are welcome. Have fun & good hacking, kiddo!
-

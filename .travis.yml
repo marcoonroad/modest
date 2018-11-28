@@ -1,0 +1,39 @@
+language: c
+
+sudo: required
+
+env:
+  global:
+    - LUAROCKS_VERSION="2.3.0"
+    - ROCK_NAME="modest"
+    - ROCK_VERSION="0.1-1"
+  matrix:
+    - LUA_VERSION="5.2.4"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="5.2.0"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="5.3.0"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="5.3.5"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="5.1.4"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="5.1.1"       LUA_SUFFIX=""    REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="2.0.5"       LUA_SUFFIX="jit" REBUILD=1 NOCOVERAGE=0
+    - LUA_VERSION="2.1.0-beta3" LUA_SUFFIX="jit" REBUILD=1 NOCOVERAGE=0
+
+before_install: "source .travis-ci/setup.sh"
+
+install: "bash .travis-ci/install.sh"
+
+script: "bash .travis-ci/test.sh"
+
+after_success: "bash .travis-ci/report.sh"
+
+cache:
+  directories:
+    - "$HOME/.travis-ci-lua"
+
+branches:
+  except:
+    - gh-pages
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always

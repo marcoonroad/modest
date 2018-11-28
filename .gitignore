@@ -6,3 +6,5 @@ TRASH/
 vendor/
 _site/
 .bundle/
+luacov.*.out
+.luacheckcache
